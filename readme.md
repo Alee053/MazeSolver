@@ -7,6 +7,6 @@ Features:
 - Maze solving using BFS algorithm
 - Interactive visualization of the maze creation and solving process
 
-## Showcase
+## Demo
 
 ![MazeSolver](./showcase.gif)
