@@ -1,0 +1,68 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html{
+  display: grid;
+  place-items: center;
+}
+body {
+  place-items: center;
+  display: grid;
+  grid-template-columns: min-content min-content min-content min-content min-content;
+  grid-template-rows: min-content min-content min-content min-content;
+  gap: 0px 0px;
+  grid-template-areas:
+    "title title title title title"
+    "sub sub sub sub sub"
+    "gen gen gen gen gen"
+    ". . . . .";
+
+  background-color: black;
+}
+
+
+canvas {
+  display: block;
+  border: white 2px solid;
+  margin: 1.5vw 0;
+
+}
+
+main {
+  grid-area: gen;
+}
+
+h1 {
+  color: white;
+  font-size: 5vw;
+  text-align: center;
+  padding: 0;
+  padding-top: 1vw;
+  margin: 0;
+  grid-area: title;
+
+}
+
+h3 {
+  color: white;
+  font-size: 5vw;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 2vw;
+  grid-area: sub;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.5vw;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
